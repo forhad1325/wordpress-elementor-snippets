@@ -1,6 +1,6 @@
 # Elementor Accordion — Collapse First Item
 
-Collapses the first accordion item by default in the Elementor Accordion widget (which opens the first item by default).
+Collapses the first accordion item by default in the Elementor Accordion widget (which opens it by default).
 
 ## Usage
 
