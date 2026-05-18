@@ -1,0 +1,9 @@
+.horizontalScrollContainer { position: sticky; top: 0; }
+.horizontalScrollTranslate {
+    display: flex; flex-direction: row; width: fit-content;
+    transition: transform 0.14s cubic-bezier(.03,.89,.74,1.01); will-change: transform;
+}
+.horizontalScrollTranslate > .e-con {
+    min-width: 100vw; height: 100vh; max-height: 100vh; max-width: 100vw; flex-shrink: 0;
+}
+body:not(.elementor-editor-active) .horizontalScrollContainer { overflow: hidden; }
